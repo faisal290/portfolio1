@@ -95,12 +95,15 @@ main{
    margin: 0 auto;
    
 }
-
+main section{
+     margin-top: 130px;
+     margin-bottom: 130px;
+}
 .about{
     border-radius: 10px;
     padding: 100px 150px;
     text-align: center;
-    margin-top: 130px;
+   
 }
 .about-items{
     display: flex;
@@ -117,5 +120,37 @@ main{
 }
     .skill-description{
         padding: 30px;
-        box-shadow: 0px 6px 50px 0px black;
+        box-shadow: 0px 6px 50px 0px rgb(0,0,0, 0.06);
+    }
+
+    /* resume-container style */
+    .resume-container{
+        display: flex;
+        gap: 24px;
+        text-align: center;
+    }
+    .exprience-description{
+        color: black;
+    }
+
+    /* footer styles */
+    footer{
+        padding: 130px 230px;
+        display: flex;
+        gap: 100px;
+    }
+    .footer-column{
+        width: 50%;
+    }
+    footer input[
+        type="text"], footer input[type="email"], footer textarea
+        {
+        height: 64px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        display: block;
+        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 24px;
+        border: none;
     }
